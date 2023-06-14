@@ -3,9 +3,8 @@ html{
 }
 
 body {
-    background-color: rgb(54, 50, 50);
+    background-color: rgba(54, 50, 50, 0.327);
     background-image: url(images/background-adare-restaurant.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -22,20 +21,42 @@ header {
 }
 
 nav {
+    text-align: center;
+    background-color: rgba(38, 35, 35, 0.531);
     height: 40px;
+    padding-top: 28px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: azure;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 main {
-    height: 300px;
+    min-height: 300px;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 140px;
+    padding-bottom: 40px;
     padding-left: 180px;
     padding-right: 180px;
 }
 
+section {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
 footer {
-    height: 118px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgba(145, 145, 123, 0.307);
+    height: 60px;
 }
 
 h1 {
@@ -45,7 +66,7 @@ h1 {
 
 }
 
-p {
+main p {
     font-size: 24px;
     color: azure;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -57,11 +78,19 @@ span {
     text-transform: capitalize;
 }
 
-a {
-    color:blueviolet;
-    font-size: 30px;
+.mainA {
+    color:rgb(204, 77, 77);
+    font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
+}
+
+footer p { 
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 24px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
